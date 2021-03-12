@@ -21,6 +21,8 @@ public class ProductController {
 	@PostMapping(path = "/products")
 	public Product addProduct(Product product) {
 		prdouctService.addProduct(product);
+		
+		
 		return product;
 
 	}
